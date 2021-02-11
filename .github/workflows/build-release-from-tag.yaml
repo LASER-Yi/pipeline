@@ -1,8 +1,8 @@
 name: build release from tag
 on:
-  push:
+  create:
     tags:
-      - 'v*'
+      - *
 
 jobs:
   Build-Version:
